@@ -41,7 +41,6 @@ def getText():
 
 def main():
     inputStr = getText()
-
     print(inputStr)
     time.sleep(3)
     print("\nAfter you are done, press enter to know your time and speed")
