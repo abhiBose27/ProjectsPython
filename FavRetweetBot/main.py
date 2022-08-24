@@ -6,6 +6,7 @@ logger = logging.getLogger()
 logging.basicConfig(level=logging.INFO)
 logger.setLevel(logging.INFO)
 
+
 def create_api():
     auth = tweepy.OAuthHandler(config.API_KEY, config.API_KEY_SECRET)
     auth.set_access_token(config.ACCESS_TOKEN, config.ACCESS_TOKEN_SECRET)
